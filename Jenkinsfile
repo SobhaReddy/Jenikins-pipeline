@@ -4,7 +4,7 @@ pipeline{
     stages{
 	 stage('checkout'){
 	   steps{
-	        git 'https://github.com/SobhaReddy/DevOpsClassCodes.git'
+	        git 'https://github.com/SobhaReddy/Jenikins-pipeline.git'
 	   }
 	 }
 	 stage('compile'){
